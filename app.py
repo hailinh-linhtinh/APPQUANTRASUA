@@ -18,7 +18,7 @@ MENU_TEA = {
     "Trà Sữa Thái Xanh": 25000,
     "Trà Sữa Ô Long": 35000,
     "Trà Sữa Matcha": 38000,
-    "Trà Sữa Gạo Rang": 30000,
+    "Trà Sữa Gạo Rang": 25000,
     "Trà Sen Vàng": 35000,
     "Phindi Hạnh Nhân": 32000,
 }
@@ -30,10 +30,10 @@ SIZE_OPTIONS = {
 }
 
 TOPPING_OPTIONS = {
-    "Trân châu đen": 5000,
-    "Trân châu trắng": 5000,
-    "Bánh Flan": 5000,
-    "Pudding trứng": 8000,
+    "Trân châu đen": 3000,
+    "Trân châu trắng": 3000,
+    "Bánh Flan": 8000,
+    "Phô mai viên": 5000,
     "Kem Cheese": 7000
 }
 
