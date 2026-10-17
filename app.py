@@ -13,14 +13,14 @@ st.set_page_config(
 
 # Danh sách menu & giá (VND)
 MENU_TEA = {
-    "Trà Sữa Truyền Thống": 30000,
-    "Trà Sữa Trân Châu Đường Đen": 35000,
-    "Trà Sữa Thái Xanh": 32000,
+    "Trà Sữa Truyền Thống": 25000,
+    "Trà Sữa Trân Châu Đường Đen": 30000,
+    "Trà Sữa Thái Xanh": 25000,
     "Trà Sữa Ô Long": 35000,
     "Trà Sữa Matcha": 38000,
-    "Trà Sữa Dâu Tây": 35000,
-    "Trà Đào Cam Sả": 35000,
-    "Trà Dâu Tằm": 32000,
+    "Trà Sữa Gạo Rang": 30000,
+    "Trà Sen Vàng": 35000,
+    "Phindi Hạnh Nhân": 32000,
 }
 
 SIZE_OPTIONS = {
@@ -31,10 +31,10 @@ SIZE_OPTIONS = {
 
 TOPPING_OPTIONS = {
     "Trân châu đen": 5000,
-    "Trân châu trắng": 7000,
-    "Thạch trái cây": 5000,
+    "Trân châu trắng": 5000,
+    "Bánh Flan": 5000,
     "Pudding trứng": 8000,
-    "Kem Cheese": 10000
+    "Kem Cheese": 7000
 }
 
 SUGAR_LEVELS = ["100% (Bình thường)", "70%", "50%", "30%", "0% (Không đường)"]
@@ -77,7 +77,7 @@ def create_txt_invoice(customer_name, cart, total_amount, discount, final_amount
 # ---------------------------------------------------------
 # GIAO DIỆN CHÍNH
 # ---------------------------------------------------------
-st.title("QUÁN TRÀ SỮA MR BÌNH")
+st.title("QUÁN TRÀ SỮA Phạm Hải Linh")
 st.markdown("---")
 
 col_left, col_right = st.columns([1.1, 0.9])
